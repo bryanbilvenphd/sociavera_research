@@ -43,11 +43,11 @@ export function DivisionsTeam() {
           <div className="rounded-xl border border-white/10 bg-zinc-900/50 p-4">
             <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">Kontak</p>
             <a
-              href="mailto:info@sociaveraresearch.org"
+                href="mailto:info@sociaveraresearch.com"
               className="mt-2 flex items-center gap-2 text-sm text-zinc-300 transition-colors hover:text-white"
             >
               <Mail className="size-4 text-zinc-500" />
-              info@sociaveraresearch.org
+                info@sociaveraresearch.com
             </a>
             <p className="mt-2 flex items-start gap-2 text-xs leading-relaxed text-zinc-500">
               <MapPin className="mt-0.5 size-4 shrink-0" />
