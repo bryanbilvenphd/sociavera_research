@@ -59,11 +59,20 @@ export function PublicationsGrid() {
           Lihat semua
         </a>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {publications.map((pub) => (
-          <PublicationCard key={pub.id} pub={pub} />
-        ))}
-      </div>
+      {publications.length === 0 ? (
+        <div className="flex flex-col items-center justify-center rounded-xl border border-dashed border-white/10 bg-zinc-900/40 px-6 py-16 text-center">
+          <p className="text-sm font-medium text-zinc-300">Belum ada publikasi riset</p>
+          <p className="mt-1 max-w-sm text-sm text-zinc-500">
+            Publikasi riset akan ditampilkan di sini setelah tersedia.
+          </p>
+        </div>
+      ) : (
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+          {publications.map((pub) => (
+            <PublicationCard key={pub.id} pub={pub} />
+          ))}
+        </div>
+      )}
     </section>
   )
 }
