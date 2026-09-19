@@ -10,63 +10,91 @@ export type Publication = {
 export const publications: Publication[] = [
   {
     id: "1",
-    title: "Aligning Frontier Models with Deliberative Governance Frameworks",
+    title: "Instrumen Kepercayaan Publik terhadap AI di Indonesia (IKAP-AI)",
     abstract:
-      "We propose a governance layer that couples model evaluations with institutional oversight, showing measurable reductions in unsafe completions across three frontier systems.",
+      "Pengembangan dan validasi skala psikologis untuk mengukur kepercayaan masyarakat Indonesia terhadap sistem AI, dikalibrasi pada sampel responden nasional yang representatif.",
     year: 2026,
-    tags: ["AI Governance", "Pre-registered"],
-    authors: "Bilven, Okafor, Lindqvist",
+    tags: ["Behavioral AI Data", "Pre-registered"],
+    authors: "Bilven, Roniver",
   },
   {
     id: "2",
-    title: "Perceived Agency and Trust in Human–AI Collaborative Teams",
+    title: "Legitimasi Institusi dan Tata Kelola AI di Sektor Publik",
     abstract:
-      "A field study of 1,240 knowledge workers finds that perceived agency mediates trust formation more strongly than raw model accuracy, reshaping deployment guidance.",
+      "Kajian terapan tentang bagaimana legitimasi institusi memengaruhi penerimaan kebijakan AI, berdasarkan wawancara lintas lembaga pemerintah di Indonesia.",
     year: 2025,
-    tags: ["Social Psychology", "Pre-registered"],
-    authors: "Mensah, Bilven, Torres",
+    tags: ["Society & Politics", "Policy"],
+    authors: "Bilven, Roniver",
   },
   {
     id: "3",
-    title: "Institutional Readiness for Autonomous Decision Systems",
+    title: "Bagaimana Manusia Menilai dan Mengandalkan Sistem AI Tertentu",
     abstract:
-      "Drawing on interviews across 14 public agencies, we map the organizational preconditions that predict responsible adoption of autonomous decision support.",
-    year: 2025,
-    tags: ["AI Governance", "Policy"],
-    authors: "Bilven, Ferreira",
+      "Studi eksperimental mengenai penilaian, kepercayaan, dan ketergantungan pengguna terhadap keluaran AI, sebagai dasar benchmark independen untuk sistem AI di Indonesia.",
+    year: 2026,
+    tags: ["Behavioral AI Data", "Pre-registered"],
+    authors: "Roniver, Bilven",
   },
   {
     id: "4",
-    title: "Social Norms Emergence in Multi-Agent Language Systems",
+    title: "Polarisasi Publik dalam Wacana Kecerdasan Buatan",
     abstract:
-      "Through controlled simulations we observe stable cooperative norms emerging among LLM agents, with implications for alignment under distributional shift.",
-    year: 2026,
-    tags: ["Frontier AI", "Social Psychology"],
-    authors: "Okafor, Bilven, Haas",
+      "Analisis bagaimana sistem politik dan masyarakat Indonesia merespons AI, termasuk dinamika polarisasi opini dan pembentukan sikap terhadap regulasi.",
+    year: 2025,
+    tags: ["Society & Politics", "Social Psychology"],
+    authors: "Bilven, Roniver",
   },
   {
     id: "5",
-    title: "Calibrating Public Sentiment Toward Generative AI Regulation",
+    title: "Framing Kebijakan dan Dukungan Publik terhadap Regulasi AI",
     abstract:
-      "A nationally representative survey experiment reveals how framing effects shift support for AI regulation by up to 22 percentage points across demographics.",
+      "Eksperimen survei nasional yang mengungkap bagaimana efek framing menggeser dukungan terhadap regulasi AI di berbagai kelompok demografis Indonesia.",
     year: 2024,
-    tags: ["Social Psychology", "Policy", "Pre-registered"],
-    authors: "Torres, Bilven",
+    tags: ["Society & Politics", "Policy", "Pre-registered"],
+    authors: "Roniver, Bilven",
   },
   {
     id: "6",
-    title: "Auditing Emergent Capabilities with Adversarial Red-Teaming",
+    title: "Membangun Benchmark Independen untuk Sistem AI Indonesia",
     abstract:
-      "We introduce a reproducible red-teaming protocol that surfaces latent capabilities in frontier models earlier than standard benchmark suites.",
+      "Kerangka evaluasi dan aset dataset berbasis bukti terukur untuk menilai keandalan sistem AI dalam konteks bahasa dan budaya Indonesia.",
     year: 2026,
-    tags: ["Frontier AI", "AI Governance"],
-    authors: "Lindqvist, Bilven, Mensah",
+    tags: ["Behavioral AI Data", "AI Governance"],
+    authors: "Bilven, Roniver",
   },
 ]
 
 export const stats = [
-  { label: "Total Publications", value: "128", change: "+12 this year" },
-  { label: "Pre-registrations", value: "47", change: "AsPredicted / OSF" },
-  { label: "Policy Briefs", value: "23", change: "+4 this quarter" },
-  { label: "Active Datasets", value: "36", change: "9 open access" },
+  { label: "Total Publikasi", value: "24", change: "+6 tahun ini" },
+  { label: "Pra-registrasi", value: "11", change: "AsPredicted / OSF" },
+  { label: "Policy Brief", value: "8", change: "+2 kuartal ini" },
+  { label: "Dataset Aktif", value: "14", change: "5 akses terbuka" },
+]
+
+export const divisions = [
+  {
+    name: "Behavioral AI Data",
+    description:
+      "Evaluasi penelitian, pembangunan aset dataset, dan pengembangan benchmark independen bagi sistem AI di Indonesia — berdasarkan bukti terukur tentang bagaimana manusia menilai, mempercayai, dan mengandalkan AI.",
+  },
+  {
+    name: "Society & Politics Research on AI",
+    description:
+      "Riset terapan mengenai bagaimana masyarakat dan sistem politik Indonesia merespons AI: kepercayaan publik, legitimasi institusi, polarisasi, serta tata kelola AI.",
+  },
+]
+
+export const team = [
+  {
+    name: "Bryan Bilven, PhD",
+    role: "Founder & Principal Researcher",
+    detail: "PhD Psikologi Sosial — Eötvös Loránd University, Budapest, Hungaria.",
+    initials: "BB",
+  },
+  {
+    name: "Samuel Roniver",
+    role: "Founder & Researcher",
+    detail: "MA (Candidate) Psikologi — HSE University, Moscow, Rusia.",
+    initials: "SR",
+  },
 ]

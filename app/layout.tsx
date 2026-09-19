@@ -3,9 +3,9 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Sociavera Research — Research Hub',
+  title: 'SociaVera Research — Research Hub',
   description:
-    'Sociavera Research Hub — advancing AI Governance, Social Psychology, and Frontier AI Research.',
+    'SociaVera Research — perusahaan riset independen yang membangun instrumen psikologis dari data Indonesia untuk AI Governance, Behavioral AI Data, dan Society & Politics Research on AI.',
   generator: 'v0.app',
   icons: {
     icon: [

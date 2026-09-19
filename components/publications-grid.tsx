@@ -53,10 +53,10 @@ export function PublicationsGrid() {
     <section id="publications" className="scroll-mt-6">
       <div className="mb-4 flex items-center justify-between">
         <h2 className="text-lg font-semibold tracking-tight text-zinc-100">
-          Research Publications
+          Publikasi Riset
         </h2>
         <a href="#" className="text-sm text-zinc-400 transition-colors hover:text-zinc-200">
-          View all
+          Lihat semua
         </a>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">

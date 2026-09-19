@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react"
 
-const focusAreas = ["AI Governance", "Social Psychology", "Frontier AI Research"]
+const focusAreas = ["AI Governance", "Behavioral AI Data", "Society & Politics"]
 
 export function HeroBanner() {
   return (
@@ -15,15 +15,15 @@ export function HeroBanner() {
       />
       <div className="relative max-w-2xl">
         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-zinc-300">
-          Sociavera Research Hub
+          SociaVera Research Hub
         </span>
         <h1 className="mt-4 text-balance text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
-          Rigorous, pre-registered research at the frontier of AI and society
+          Memahami bagaimana masyarakat Indonesia benar-benar berhubungan dengan AI
         </h1>
         <p className="mt-3 text-pretty text-sm leading-relaxed text-zinc-400 sm:text-base">
-          We study how advanced AI systems reshape institutions and human behavior — advancing
-          responsible governance, evidence-based policy, and the social psychology of intelligent
-          machines.
+          Perusahaan riset independen yang membangun instrumen psikologis dari data Indonesia,
+          divalidasi pada responden Indonesia, dan menjawab persoalan nyata yang dihadapi institusi
+          — menghasilkan keputusan berbasis bukti, bukan sekadar sitasi akademik.
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-2">
           {focusAreas.map((area) => (
@@ -39,7 +39,7 @@ export function HeroBanner() {
           href="#publications"
           className="mt-6 inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-white"
         >
-          Explore latest research
+          Jelajahi riset terbaru
           <ArrowUpRight className="size-4" />
         </a>
       </div>

@@ -3,6 +3,7 @@ import { Header } from "@/components/header"
 import { HeroBanner } from "@/components/hero-banner"
 import { StatsWidget } from "@/components/stats-widget"
 import { PublicationsGrid } from "@/components/publications-grid"
+import { DivisionsTeam } from "@/components/divisions-team"
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
           <HeroBanner />
           <StatsWidget />
           <PublicationsGrid />
+          <DivisionsTeam />
         </main>
       </div>
     </div>

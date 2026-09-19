@@ -3,8 +3,8 @@
 import { useState } from "react"
 import {
   LayoutDashboard,
-  ShieldCheck,
-  Brain,
+  Activity,
+  Landmark,
   FileText,
   Database,
   Hexagon,
@@ -13,10 +13,10 @@ import {
 
 const navItems = [
   { label: "Dashboard", icon: LayoutDashboard },
-  { label: "AI Governance", icon: ShieldCheck },
-  { label: "Social Psychology", icon: Brain },
-  { label: "Policy Papers", icon: FileText },
-  { label: "Datasets", icon: Database },
+  { label: "Behavioral AI Data", icon: Activity },
+  { label: "Society & Politics", icon: Landmark },
+  { label: "Publikasi", icon: FileText },
+  { label: "Dataset", icon: Database },
 ]
 
 export function Sidebar() {
@@ -29,7 +29,7 @@ export function Sidebar() {
           <Hexagon className="size-5" strokeWidth={2.2} />
         </div>
         <div className="leading-tight">
-          <p className="text-sm font-semibold text-zinc-100">Sociavera</p>
+          <p className="text-sm font-semibold text-zinc-100">SociaVera</p>
           <p className="text-xs text-zinc-500">Research</p>
         </div>
       </div>
@@ -65,8 +65,8 @@ export function Sidebar() {
             BB
           </div>
           <div className="min-w-0 flex-1 leading-tight">
-            <p className="truncate text-sm font-medium text-zinc-100">Bryan Bilven</p>
-            <p className="truncate text-xs text-zinc-500">Senior Fellow</p>
+            <p className="truncate text-sm font-medium text-zinc-100">Bryan Bilven, PhD</p>
+            <p className="truncate text-xs text-zinc-500">Founder & Principal Researcher</p>
           </div>
           <ChevronsUpDown className="size-4 text-zinc-500" />
         </button>
