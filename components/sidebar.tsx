@@ -7,7 +7,6 @@ import {
   Landmark,
   FileText,
   Database,
-  Hexagon,
   ChevronsUpDown,
 } from "lucide-react"
 
@@ -24,13 +23,13 @@ export function Sidebar() {
 
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-white/10 bg-zinc-950/60 lg:flex">
-      <div className="flex items-center gap-2.5 px-5 py-5">
-        <div className="flex size-9 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 text-white">
-          <Hexagon className="size-5" strokeWidth={2.2} />
-        </div>
-        <div className="leading-tight">
-          <p className="text-sm font-semibold text-zinc-100">SociaVera</p>
-          <p className="text-xs text-zinc-500">Research</p>
+      <div className="px-5 py-5">
+        <div className="inline-flex items-center rounded-xl bg-white px-3 py-2 shadow-sm ring-1 ring-white/10">
+          <img
+            src="/images/sociavera-logo.png"
+            alt="SociaVera Research"
+            className="h-9 w-auto"
+          />
         </div>
       </div>
 
