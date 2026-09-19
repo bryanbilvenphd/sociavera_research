@@ -20,7 +20,7 @@ export const divisions = [
   {
     name: "Behavioral AI Data",
     description:
-      "Jasa research yang secara ilmiah mengukur bagaimana manusia menilai, mempercayai, dan mengandalkan sistem AI tertentu.",
+      "Jasa riset yang secara ilmiah mengukur bagaimana manusia menilai, mempercayai, dan mengandalkan sistem AI tertentu.",
   },
   {
     name: "Society & Politics Research on AI",
