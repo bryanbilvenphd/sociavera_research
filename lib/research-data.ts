@@ -65,10 +65,10 @@ export const publications: Publication[] = [
 ]
 
 export const stats = [
-  { label: "Total Publikasi", value: "24", change: "+6 tahun ini" },
-  { label: "Pra-registrasi", value: "11", change: "AsPredicted / OSF" },
-  { label: "Policy Brief", value: "8", change: "+2 kuartal ini" },
-  { label: "Dataset Aktif", value: "14", change: "5 akses terbuka" },
+  { label: "Total Publikasi", value: "0", change: "Belum ada publikasi" },
+  { label: "Pra-registrasi", value: "3", change: "AsPredicted / OSF" },
+  { label: "Policy Brief", value: "0", change: "Belum ada brief" },
+  { label: "Dataset Aktif", value: "0", change: "Belum ada dataset" },
 ]
 
 export const divisions = [
