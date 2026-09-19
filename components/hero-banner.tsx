@@ -15,7 +15,7 @@ export function HeroBanner() {
       />
       <div className="relative max-w-2xl">
         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-zinc-300">
-          SociaVera Research Hub
+          SociaVera Research
         </span>
         <h1 className="mt-4 text-balance text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
           Memahami bagaimana masyarakat Indonesia benar-benar berhubungan dengan AI
