@@ -20,7 +20,7 @@ export const divisions = [
   {
     name: "Behavioral AI Data",
     description:
-      "Evaluasi penelitian, pembangunan aset dataset, dan pengembangan benchmark independen bagi sistem AI di Indonesia — berdasarkan bukti terukur tentang bagaimana manusia menilai, mempercayai, dan mengandalkan AI.",
+      "Jasa research yang secara ilmiah mengukur bagaimana manusia menilai, mempercayai, dan mengandalkan sistem AI tertentu.",
   },
   {
     name: "Society & Politics Research on AI",
