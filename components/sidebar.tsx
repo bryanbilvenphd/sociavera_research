@@ -26,7 +26,7 @@ export function Sidebar() {
         <img
           src="/images/sociavera-logo-white-on-black-preview1.png"
           alt="SociaVera Research"
-          className="h-60 w-auto"
+          className="h-50 w-auto"
         />
       </div>
 
