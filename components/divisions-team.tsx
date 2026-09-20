@@ -40,20 +40,25 @@ export function DivisionsTeam() {
             </article>
           ))}
 
-          <div className="rounded-xl border border-white/10 bg-zinc-900/50 p-4">
+          <div id="contact" className="scroll-mt-6 rounded-xl border border-white/10 bg-zinc-900/50 p-4">
             <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">Kontak</p>
             
-                <a
-                  href="mailto:info@sociaveraresearch.com"
+              href="mailto:info@sociaveraresearch.org"
               className="mt-2 flex items-center gap-2 text-sm text-zinc-300 transition-colors hover:text-white"
             >
               <Mail className="size-4 text-zinc-500" />
-                info@sociaveraresearch.com
+              info@sociaveraresearch.org
             </a>
             <p className="mt-2 flex items-start gap-2 text-xs leading-relaxed text-zinc-500">
               <MapPin className="mt-0.5 size-4 shrink-0" />
               The Grandis No. 17, Royal Sumatra, Medan 20128, North Sumatra, Indonesia
             </p>
+            
+              href="/publications"
+              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-indigo-300 transition-colors hover:text-indigo-200"
+            >
+              Lihat Publikasi Kami →
+            </a>
           </div>
         </div>
       </section>
