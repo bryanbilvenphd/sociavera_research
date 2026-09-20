@@ -1,6 +1,6 @@
 "use client"
 
-import { Search, Plus, Bell } from "lucide-react"
+import { Search, Bell } from "lucide-react"
 
 const filterTags = ["Behavioral AI Data", "Society & Politics", "Pre-registered"]
 
@@ -36,10 +36,6 @@ export function Header() {
         >
           <Bell className="size-4" />
           <span className="absolute right-2 top-2 size-1.5 rounded-full bg-indigo-400" />
-        </button>
-        <button className="flex items-center gap-2 rounded-lg bg-zinc-100 px-3.5 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-white">
-          <Plus className="size-4" />
-          New Project
         </button>
       </div>
     </header>
