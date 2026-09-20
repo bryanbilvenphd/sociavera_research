@@ -7,7 +7,6 @@ import {
   Landmark,
   FileText,
   Database,
-  ChevronsUpDown,
 } from "lucide-react"
 
 const navItems = [
@@ -24,13 +23,11 @@ export function Sidebar() {
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-white/10 bg-zinc-950/60 lg:flex">
       <div className="px-5 py-5">
-        <div className="inline-flex items-center rounded-xl bg-white px-3 py-2 shadow-sm ring-1 ring-white/10">
-          <img
-            src="/images/sociavera-logo.png"
-            alt="SociaVera Research"
-            className="h-9 w-auto"
-          />
-        </div>
+        <img
+          src="/images/sociavera-logo-white.png"
+          alt="SociaVera Research"
+          className="h-16 w-auto"
+        />
       </div>
 
       <nav className="flex flex-1 flex-col gap-1 px-3 py-2">
@@ -57,19 +54,6 @@ export function Sidebar() {
           )
         })}
       </nav>
-
-      <div className="border-t border-white/10 p-3">
-        <button className="flex w-full items-center gap-3 rounded-lg px-2 py-2 text-left transition-colors hover:bg-white/5">
-          <div className="flex size-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 text-sm font-semibold text-white">
-            BB
-          </div>
-          <div className="min-w-0 flex-1 leading-tight">
-            <p className="truncate text-sm font-medium text-zinc-100">Bryan Bilven, PhD</p>
-            <p className="truncate text-xs text-zinc-500">Founder & Principal Researcher</p>
-          </div>
-          <ChevronsUpDown className="size-4 text-zinc-500" />
-        </button>
-      </div>
     </aside>
   )
 }
