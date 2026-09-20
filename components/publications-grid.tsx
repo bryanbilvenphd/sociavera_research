@@ -37,7 +37,8 @@ function PublicationCard({ pub }: { pub: Publication }) {
           <span>{pub.year}</span>
         </div>
         
-          href="#"
+          <a
+            href="#"
           className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-zinc-300 transition-colors hover:text-white"
         >
           View Research
