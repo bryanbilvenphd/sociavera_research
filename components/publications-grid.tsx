@@ -36,7 +36,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
           <span className="mx-1.5">·</span>
           <span>{pub.year}</span>
         </div>
-        <a
+        
           href="#"
           className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-zinc-300 transition-colors hover:text-white"
         >
@@ -53,7 +53,7 @@ export function PublicationsGrid() {
     <section id="publications" className="scroll-mt-6">
       <div className="mb-4 flex items-center justify-between">
         <h2 className="text-lg font-semibold tracking-tight text-zinc-100">
-          Publikasi Riset
+          Research Publications
         </h2>
         <a href="#" className="text-sm text-zinc-400 transition-colors hover:text-zinc-200">
           Lihat semua
