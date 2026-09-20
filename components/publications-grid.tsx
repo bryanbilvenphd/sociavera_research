@@ -37,8 +37,9 @@ function PublicationCard({ pub }: { pub: Publication }) {
           <span>{pub.year}</span>
         </div>
         
-          <a
-            href="#"
+          href={pub.url}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-zinc-300 transition-colors hover:text-white"
         >
           View Research
@@ -56,9 +57,6 @@ export function PublicationsGrid() {
         <h2 className="text-lg font-semibold tracking-tight text-zinc-100">
           Research Publications
         </h2>
-        <a href="#" className="text-sm text-zinc-400 transition-colors hover:text-zinc-200">
-          Lihat semua
-        </a>
       </div>
       {publications.length === 0 ? (
         <div className="flex flex-col items-center justify-center rounded-xl border border-dashed border-white/10 bg-zinc-900/40 px-6 py-16 text-center">
