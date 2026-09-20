@@ -5,7 +5,7 @@ export function DivisionsTeam() {
   return (
     <div className="grid gap-4 lg:grid-cols-3">
       <section className="lg:col-span-2">
-        <h2 className="mb-4 text-lg font-semibold tracking-tight text-zinc-100">Divisi Kami</h2>
+        <h2 className="mb-4 text-lg font-semibold tracking-tight text-zinc-100">Our Divisions</h2>
         <div className="grid gap-4 sm:grid-cols-2">
           {divisions.map((division) => (
             <article
@@ -22,7 +22,7 @@ export function DivisionsTeam() {
       </section>
 
       <section>
-        <h2 className="mb-4 text-lg font-semibold tracking-tight text-zinc-100">Tim Kami</h2>
+        <h2 className="mb-4 text-lg font-semibold tracking-tight text-zinc-100">Our Team</h2>
         <div className="space-y-3">
           {team.map((member) => (
             <article
@@ -42,7 +42,7 @@ export function DivisionsTeam() {
 
           <div className="rounded-xl border border-white/10 bg-zinc-900/50 p-4">
             <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">Kontak</p>
-            <a
+            
                 href="mailto:info@sociaveraresearch.com"
               className="mt-2 flex items-center gap-2 text-sm text-zinc-300 transition-colors hover:text-white"
             >
