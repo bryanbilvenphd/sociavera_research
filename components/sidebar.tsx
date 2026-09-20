@@ -24,7 +24,7 @@ export function Sidebar() {
     <aside className="hidden w-64 shrink-0 flex-col border-r border-white/10 bg-zinc-950/60 lg:flex">
       <div className="px-5 py-5">
         <img
-          src="/images/sociavera-logo-white-on-black-preview.png"
+          src="/images/sociavera-logo-white-on-black-preview1.png"
           alt="SociaVera Research"
           className="h-60 w-auto"
         />
