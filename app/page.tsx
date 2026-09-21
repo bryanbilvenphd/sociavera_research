@@ -1,7 +1,6 @@
 import { Sidebar } from "@/components/sidebar"
 import { Header } from "@/components/header"
 import { HeroBanner } from "@/components/hero-banner"
-import { StatsWidget } from "@/components/stats-widget"
 import { DivisionsTeam } from "@/components/divisions-team"
 
 export default function Page() {
@@ -12,7 +11,6 @@ export default function Page() {
         <Header />
         <main className="flex-1 space-y-8 px-5 py-6 sm:px-8">
           <HeroBanner />
-          <StatsWidget />
           <DivisionsTeam />
         </main>
       </div>
