@@ -35,8 +35,7 @@ export default function ContactPage() {
               Ceritakan kebutuhan riset Anda — kami akan menghubungi Anda untuk sesi diskusi awal
               (30 menit) tanpa biaya.
             </p>
-
-            
+              <a
               href={`mailto:${CONTACT_EMAIL}`}
               className="mt-4 inline-flex items-center gap-2 rounded-lg border border-white/10 bg-zinc-900/50 px-4 py-2 text-sm text-zinc-300 transition-colors hover:border-white/20 hover:text-white"
             >
@@ -87,4 +86,25 @@ export default function ContactPage() {
                   rows={5}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="mt-1.5
+                  className="mt-1.5 w-full resize-none rounded-lg border border-white/10 bg-zinc-950/60 px-3 py-2 text-sm text-zinc-100 outline-none focus:border-indigo-400/50"
+                  placeholder="Ceritakan kebutuhan riset Anda..."
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-white"
+              >
+                Kirim via Email
+                <ArrowUpRight className="size-4" />
+              </button>
+              <p className="text-xs text-zinc-600">
+                Tombol ini akan membuka aplikasi email Anda dengan pesan sudah terisi.
+              </p>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+  )
+}
