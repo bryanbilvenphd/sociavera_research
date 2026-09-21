@@ -35,8 +35,8 @@ export function HeroBanner() {
             </span>
           ))}
         </div>
-        <a
-          href="#contact"
+        <a        
+          href="/contact"
           className="mt-6 inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-white"
         >
           Diskusikan Studi Anda
