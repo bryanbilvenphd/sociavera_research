@@ -1,6 +1,6 @@
 import { ArrowUpRight } from "lucide-react"
 
-const focusAreas = ["AI Governance", "Behavioral AI Data", "Society & Politics"]
+const focusAreas = ["Behavioral AI Data", "Calibrated Trust", "AI Trust Research"]
 
 export function HeroBanner() {
   return (
@@ -18,12 +18,12 @@ export function HeroBanner() {
           SociaVera Research
         </span>
         <h1 className="mt-4 text-balance text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
-          Memahami bagaimana masyarakat Indonesia benar-benar berhubungan dengan AI
+          Apakah pengguna Anda benar-benar mempercayai AI Anda — atau sekadar terpaksa memakainya?
         </h1>
         <p className="mt-3 text-pretty text-sm leading-relaxed text-zinc-400 sm:text-base">
-          Perusahaan riset independen yang membangun instrumen psikologis dari data Indonesia,
-          divalidasi pada responden Indonesia, dan menjawab persoalan nyata yang dihadapi institusi
-          — menghasilkan keputusan berbasis bukti, bukan sekadar sitasi akademik.
+          Kami mengukur kalibrasi kepercayaan pengguna Indonesia terhadap sistem AI Anda — bukan
+          skor kepuasan biasa, tapi bukti psikometrik tervalidasi tentang kapan pengguna terlalu
+          percaya, dan kapan mereka tidak percaya sama sekali.
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-2">
           {focusAreas.map((area) => (
@@ -35,11 +35,11 @@ export function HeroBanner() {
             </span>
           ))}
         </div>
-        <a
-          href="#publications"
+        
+          href="#contact"
           className="mt-6 inline-flex items-center gap-1.5 rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-white"
         >
-          Jelajahi riset terbaru
+          Diskusikan Studi Anda
           <ArrowUpRight className="size-4" />
         </a>
       </div>
