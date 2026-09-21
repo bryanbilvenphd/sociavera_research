@@ -1,6 +1,7 @@
 "use client"
 
-import { useState } from "react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 import {
   LayoutDashboard,
   Activity,
@@ -10,15 +11,15 @@ import {
 } from "lucide-react"
 
 const navItems = [
-  { label: "Dashboard", icon: LayoutDashboard },
-  { label: "Behavioral AI Data", icon: Activity },
-  { label: "Society & Politics", icon: Landmark },
-  { label: "Publikasi", icon: FileText },
-  { label: "Dataset", icon: Database },
+  { label: "Dashboard", icon: LayoutDashboard, href: "/" },
+  { label: "Behavioral AI Data", icon: Activity, href: "/#behavioral-ai-data" },
+  { label: "Society & Politics", icon: Landmark, href: "/#society-politics" },
+  { label: "Publikasi", icon: FileText, href: "/publications" },
+  { label: "Dataset", icon: Database, href: "/#dataset" },
 ]
 
 export function Sidebar() {
-  const [active, setActive] = useState("Dashboard")
+  const pathname = usePathname()
 
   return (
     <aside className="hidden w-64 shrink-0 flex-col border-r border-white/10 bg-zinc-950/60 lg:flex">
@@ -36,11 +37,11 @@ export function Sidebar() {
         </p>
         {navItems.map((item) => {
           const Icon = item.icon
-          const isActive = active === item.label
+          const isActive = pathname === item.href
           return (
-            <button
+            <Link
               key={item.label}
-              onClick={() => setActive(item.label)}
+              href={item.href}
               className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
                 isActive
                   ? "bg-white/10 text-zinc-100"
@@ -50,10 +51,14 @@ export function Sidebar() {
             >
               <Icon className="size-4" />
               {item.label}
-            </button>
+            </Link>
           )
         })}
       </nav>
+
+      <div className="border-t border-white/10 px-5 py-4">
+        <p className="text-xs text-zinc-600">SociaVera Research © 2026</p>
+      </div>
     </aside>
   )
 }
