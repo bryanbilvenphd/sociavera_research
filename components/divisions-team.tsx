@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Mail, MapPin } from "lucide-react"
 import { divisions, team } from "@/lib/research-data"
 
@@ -24,23 +25,43 @@ export function DivisionsTeam() {
       <section>
         <h2 className="mb-4 text-lg font-semibold tracking-tight text-zinc-100">Our Team</h2>
         <div className="space-y-3">
-          {team.map((member) => (
-            <article
-              key={member.name}
-              className="flex gap-3 rounded-xl border border-white/10 bg-zinc-900/50 p-4"
-            >
-              <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-600 text-sm font-semibold text-white">
-                {member.initials}
-              </div>
-              <div className="min-w-0 leading-tight">
-                <p className="text-sm font-semibold text-zinc-100">{member.name}</p>
-                <p className="text-xs text-indigo-300">{member.role}</p>
-                <p className="mt-1 text-xs leading-relaxed text-zinc-500">{member.detail}</p>
-              </div>
-            </article>
-          ))}
+          {team.map((member) => {
+            const cardContent = (
+              <>
+                <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-violet-600 text-sm font-semibold text-white">
+                  {member.initials}
+                </div>
+                <div className="min-w-0 leading-tight">
+                  <p className="text-sm font-semibold text-zinc-100">{member.name}</p>
+                  <p className="text-xs text-indigo-300">{member.role}</p>
+                  <p className="mt-1 text-xs leading-relaxed text-zinc-500">{member.detail}</p>
+                </div>
+              </>
+            )
 
-          <div id="contact" className="scroll-mt-6 rounded-xl border border-white/10 bg-zinc-900/50 p-4">
+            if (member.name.includes("Bryan Bilven")) {
+              return (
+                <Link
+                  key={member.name}
+                  href="/publications"
+                  className="flex gap-3 rounded-xl border border-white/10 bg-zinc-900/50 p-4 transition-colors hover:border-white/20 hover:bg-zinc-900/80"
+                >
+                  {cardContent}
+                </Link>
+              )
+            }
+
+            return (
+              <article
+                key={member.name}
+                className="flex gap-3 rounded-xl border border-white/10 bg-zinc-900/50 p-4"
+              >
+                {cardContent}
+              </article>
+            )
+          })}
+
+          <div className="rounded-xl border border-white/10 bg-zinc-900/50 p-4">
             <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">Kontak</p>
             <a
               href="mailto:info@sociaveraresearch.com"
@@ -53,12 +74,6 @@ export function DivisionsTeam() {
               <MapPin className="mt-0.5 size-4 shrink-0" />
               The Grandis No. 17, Royal Sumatra, Medan 20128, North Sumatra, Indonesia
             </p>
-            <a
-              href="/publications"
-              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-indigo-300 transition-colors hover:text-indigo-200"
-            >
-              Lihat Publikasi Kami →
-            </a>
           </div>
         </div>
       </section>
