@@ -36,7 +36,7 @@ function PublicationCard({ pub }: { pub: Publication }) {
           <span className="mx-1.5">·</span>
           <span>{pub.year}</span>
         </div>
-        
+        <a
           href={pub.url}
           target="_blank"
           rel="noopener noreferrer"
