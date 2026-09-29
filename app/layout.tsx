@@ -5,7 +5,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'SociaVera Research',
   description:
-    'SociaVera Research — perusahaan riset independen yang membangun instrumen psikologis dari data Indonesia untuk AI Governance, Behavioral AI Data, dan Society & Politics Research on AI.',
+    'SociaVera Research adalah perusahaan riset independen yang membangun instrumen psikologis dari data Indonesia untuk Behavioral AI Data dan Society, Politics & AI Research.',
   generator: 'v0.app',
   icons: {
     icon: [

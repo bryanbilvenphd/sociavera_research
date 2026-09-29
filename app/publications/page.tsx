@@ -1,25 +1,30 @@
-import { Sidebar } from "@/components/sidebar"
-import { Header } from "@/components/header"
+import { Navbar } from "@/components/navbar"
+import { Footer } from "@/components/footer"
 import { PublicationsGrid } from "@/components/publications-grid"
+import { PageGlow } from "@/components/page-glow"
 
 export default function PublicationsPage() {
   return (
-    <div className="flex min-h-screen bg-zinc-950 text-zinc-100">
-      <Sidebar />
-      <div className="flex min-w-0 flex-1 flex-col">
-        <Header />
-        <main className="flex-1 space-y-8 px-5 py-6 sm:px-8">
-          <div>
-             <h1 className="text-2xl font-semibold tracking-tight text-zinc-50">
-              Publikasi Bryan Bilven, Ph.D.
-            </h1>
-            <p className="mt-2 text-sm text-zinc-400">
-              Publikasi akademik peer-review pribadi oleh Founder &amp; Principal Researcher SociaVera Research.
-            </p>
-          </div>
+    <div className="relative min-h-screen overflow-hidden bg-[#0B1220]">
+      <PageGlow color="amber" />
+      <Navbar />
+      <main className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
+        <div>
+          <p className="max-w-2xl text-sm leading-relaxed text-slate-300">
+            Fokus riset Bryan berpusat pada psikologi sosial hubungan antarkelompok, khususnya
+            bagaimana keyakinan viktimisasi kolektif, identitas etnis dan nasional, serta
+            pengakuan atas penderitaan masa lalu memengaruhi prasangka dan dukungan terhadap
+            rekonsiliasi. Studi-studi ini meneliti masyarakat native dan Tionghoa Indonesia dalam
+            konteks pasca-kolonial, menggunakan survei dan desain eksperimen dengan structural
+            equation modeling (SEM) untuk menguji jalur mediasi antara keyakinan, sikap, dan
+            perilaku antarkelompok.
+          </p>
+        </div>
+        <div className="mt-10">
           <PublicationsGrid />
-        </main>
-      </div>
+        </div>
+      </main>
+      <Footer />
     </div>
   )
 }
