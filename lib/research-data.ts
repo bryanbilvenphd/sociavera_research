@@ -14,7 +14,7 @@ export const publications: Publication[] = [
     title:
       "Exclusive victimhood, higher ethnic and lower national identities predict less support for reconciliation among native and Chinese Indonesians through mutual prejudice",
     abstract:
-      "Studi survei daring (N=656) pada masyarakat native dan Tionghoa Indonesia. Menggunakan structural equation modeling, penelitian ini menunjukkan bahwa keyakinan viktimisasi eksklusif dan identitas etnis memprediksi prasangka yang lebih tinggi, sementara identitas nasional Indonesia memprediksi prasangka yang lebih rendah — yang pada gilirannya memprediksi dukungan rekonsiliasi antar kelompok.",
+      "Studi survei daring (N=656) pada masyarakat native dan Tionghoa Indonesia. Menggunakan structural equation modeling, penelitian ini menunjukkan bahwa keyakinan viktimisasi eksklusif dan identitas etnis memprediksi prasangka yang lebih tinggi, sementara identitas nasional Indonesia memprediksi prasangka yang lebih rendah, yang pada gilirannya memprediksi dukungan rekonsiliasi antar kelompok.",
     year: 2022,
     tags: ["Social Psychology", "Intergroup Relations", "SEM", "Indonesia"],
     authors: "Bilven, B., Nyúl, B., & Kende, A.",
@@ -25,7 +25,7 @@ export const publications: Publication[] = [
     title:
       "Perception of perpetrators' acknowledgement of victimhood increases rather than decreases support for reconciliation with another victim group",
     abstract:
-      "Studi survei (N=333) pada native Indonesia menguji apakah persepsi pengakuan viktimisasi oleh pelaku (Belanda) dan kelompok korban lain (Tionghoa Indonesia) memprediksi dukungan rekonsiliasi. Hasilnya berlawanan dengan ekspektasi: pengakuan viktimisasi oleh pelaku justru terkait dengan prasangka yang lebih tinggi, yang kemudian menurunkan dukungan rekonsiliasi.",
+      "Studi survei (N=333) pada native Indonesia menguji apakah persepsi pengakuan viktimisasi oleh pelaku (Belanda) dan kelompok korban lain (Tionghoa Indonesia) memprediksi dukungan rekonsiliasi. Hasilnya berlawanan dengan ekspektasi. Pengakuan viktimisasi oleh pelaku justru terkait dengan prasangka yang lebih tinggi, yang kemudian menurunkan dukungan rekonsiliasi.",
     year: 2024,
     tags: ["Social Psychology", "Post-colonialism", "Reconciliation", "Indonesia"],
     authors: "Bilven, B., Sam Nariman, H., & Kende, A.",
@@ -36,7 +36,7 @@ export const publications: Publication[] = [
     title:
       "Past, present and future: Colonial comparative victimhood hinders reconciliation with Chinese Indonesians through prejudice among natives",
     abstract:
-      "Dua studi (survei N=333 dan eksperimen N=300) menguji dampak keyakinan viktimisasi komparatif kolonial terhadap dukungan rekonsiliasi dengan Tionghoa Indonesia. Ditemukan hubungan tidak langsung melalui keyakinan viktimisasi eksklusif dan prasangka dalam model mediasi serial — dikonfirmasi secara eksperimental pada Studi 2.",
+      "Dua studi (survei N=333 dan eksperimen N=300) menguji dampak keyakinan viktimisasi komparatif kolonial terhadap dukungan rekonsiliasi dengan Tionghoa Indonesia. Ditemukan hubungan tidak langsung melalui keyakinan viktimisasi eksklusif dan prasangka dalam model mediasi serial, dikonfirmasi secara eksperimental pada Studi 2.",
     year: 2024,
     tags: ["Social Psychology", "Experimental Design", "Post-colonialism", "Indonesia"],
     authors: "Bilven, B., Sam Nariman, H., & Kende, A.",
