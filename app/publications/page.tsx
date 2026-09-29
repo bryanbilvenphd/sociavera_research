@@ -11,13 +11,10 @@ export default function PublicationsPage() {
       <main className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
         <div>
           <p className="max-w-2xl text-sm leading-relaxed text-slate-300">
-            Fokus riset Bryan berpusat pada psikologi sosial hubungan antarkelompok, khususnya
-            bagaimana keyakinan viktimisasi kolektif, identitas etnis dan nasional, serta
-            pengakuan atas penderitaan masa lalu memengaruhi prasangka dan dukungan terhadap
-            rekonsiliasi. Studi-studi ini meneliti masyarakat native dan Tionghoa Indonesia dalam
-            konteks pasca-kolonial, menggunakan survei dan desain eksperimen dengan structural
-            equation modeling (SEM) untuk menguji jalur mediasi antara keyakinan, sikap, dan
-            perilaku antarkelompok.
+            Fokus riset Bryan berpusat pada psikologi sosial, mencakup human judgment, social
+            judgment, dan calibrated trust, serta hubungan antarkelompok, group dynamics, dan
+            intergroup attitude. Studi-studi ini menggunakan survei dan desain eksperimen dengan
+            structural equation modeling (SEM) untuk menguji jalur mediasi.
           </p>
         </div>
         <div className="mt-10">
