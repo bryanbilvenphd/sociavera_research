@@ -6,7 +6,7 @@ const team = [
     role: "Founder & Principal Researcher",
     detail: "PhD in Social Psychology, Eötvös Loránd University, Budapest, Hungaria.",
     initials: "BB",
-    photo: null, // tambahkan foto di public/images/team/bryan-bilven.jpg lalu ganti null dengan path-nya
+    photo: "/images/team/bryan-bilven.jpg",
     href: "/publications",
   },
   {
@@ -14,7 +14,7 @@ const team = [
     role: "Founder & Researcher",
     detail: "MA (Candidate) in Psychology, HSE University, Moscow, Rusia.",
     initials: "SR",
-    photo: null, // tambahkan foto di public/images/team/samuel-roniver.jpg lalu ganti null dengan path-nya
+    photo: "/images/team/samuel-roniver.jpg",
     href: null,
   },
 ]
