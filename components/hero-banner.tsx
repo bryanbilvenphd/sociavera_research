@@ -22,7 +22,7 @@ export function HeroBanner() {
         </h1>
         <p className="mt-3 text-pretty text-sm leading-relaxed text-zinc-400 sm:text-base">
           Kami mengukur kalibrasi kepercayaan pengguna Indonesia terhadap sistem AI Anda — bukan
-          skor kepuasan biasa, tapi bukti psikometrik tervalidasi tentang kapan pengguna terlalu
+          skor kepuasan biasa, tapi bukti psikometrik yang berlandaskan metode ilmiah tentang kapan pengguna terlalu
           percaya, dan kapan mereka tidak percaya sama sekali.
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-2">
